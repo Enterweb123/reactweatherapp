@@ -1,0 +1,54 @@
+.input__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(137, 43, 226, 0.501);
+    padding: 10px;
+
+    width: 280px;
+    height: 150px;
+
+    border-radius: 10px;
+
+    scale: 1.2;
+
+}
+
+
+.inputbox{
+    outline: none;
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    
+}
+.weather_text{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+::placeholder{
+    color:white
+}
+
+.input__container > button{
+   outline: none;
+   border: none;
+   background-color:#f4982e;
+   color: rgb(255, 255, 255);
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 10px;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2px;
+    justify-content: space-between;
+    width: 200px;
+    background-color: #dc4150;
+
+    margin-bottom: 15px;
+}

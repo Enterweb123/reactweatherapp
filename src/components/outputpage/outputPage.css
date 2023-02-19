@@ -1,0 +1,42 @@
+.result_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #180733d6;
+    padding: 30px 10px;
+    border-radius: 30px;
+
+    width: 300px;
+
+}
+
+.result_container > button{
+    outline: none;
+    border: none;
+    background-color:#f4982e;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.result_container img{
+   width: 50px;
+   height: 50px;
+}
+.temperatures{
+    background-color: #b82247;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.placeName{
+    margin-bottom: 5px;
+}
